@@ -1,16 +1,24 @@
-// components/Footer.js
+"use client";
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Footer() {
+    const pathname = usePathname();
+
+    // Set color based on pathname
+    const isLandingPage = pathname === "/";
+    const footerColor = isLandingPage ? "bg-[#FAFAFA]" : "bg-[#FFFFFF] border-b border-[#737373] border-opacity-50 ";
+
     return (
         <footer>
             {/* Top Section */}
-            <div className="px-6 sm:px-8 lg:px-32 md:px-16 sm:flex justify-between items-center py-12 bg-[#FAFAFA]">
+            <div className={`px-6 sm:px-8 lg:px-32 md:px-16 py-12 sm:flex justify-between items-center ${footerColor} `}>
 
                 {/* Logo and Social Icons */}
 
-                <h1 className="text-xl font-bold text-gray-800">Bandage</h1>
+                <h1 className="text-xl font-bold text-[#252B42]">Bandage</h1>
 
                 <div className="flex items-center space-x-4 mt-4 sm:mt-0">
                     {/* Facebook Icon */}
@@ -48,7 +56,7 @@ export default function Footer() {
                     {/* Column 1 */}
                     <div>
                         <h3 className="font-semibold text-[#252B42] text-[16px] tracking-tiny">Company Info</h3>
-                        <ul className="mt-4 space-y-2 text-sm text-gray-600 text-[14px] tracking-md">
+                        <ul className="mt-4 space-y-2 text-sm text-[#737373] text-[14px] tracking-md">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Carrier</a></li>
                             <li><a href="#">We are hiring</a></li>

@@ -1,0 +1,101 @@
+export const products = [
+    {
+        id: 1,
+        image: "/bsp1.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+    {
+        id: 2,
+        image: "/bsp2.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+    {
+        id: 3,
+        image: "/bsp3.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+    {
+        id: 4,
+        image: "/bsp4.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+    {
+        id: 5,
+        image: "/bsp5.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+    {
+        id: 6,
+        image: "/bsp6.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+    {
+        id: 7,
+        image: "/bsp7.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+    {
+        id: 8,
+        image: "/bsp8.jpg",
+        title: "Graphic Design",
+        category: "English Department",
+        price: "$11.64",
+        originalPrice: "$14.64",
+        colors: ["blue", "green", "yellow", "navyblue"],
+    },
+];
+
+export const featuredPosts = [
+    {
+        id: 1,
+        title: "Loudest à la Madison #1 (L'integral)",
+        image: "/fp1.jpg",
+        des: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+        date: "22 April 2021",
+        comments: "10 comments"
+    },
+    {
+        id: 2,
+        title: "Loudest à la Madison #1 (L'integral)",
+        image: "/fp2.jpg",
+        des: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+        date: "22 April 2021",
+        comments: "10 comments"
+    },
+    {
+        id: 3,
+        title: "Loudest à la Madison #1 (L'integral)",
+        image: "/fp3.jpg",
+        des: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+        date: "22 April 2021",
+        comments: "10 comments"
+    },
+]

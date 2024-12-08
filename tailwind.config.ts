@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        'tiny': '0.1px', // Add a custom class for 0.1px
+        'md': '0.2px', // Add a custom class for 0.2px
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

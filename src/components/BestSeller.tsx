@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { products } from "@/helper"
+import { products } from "@/helper";
 
 export default function BestSeller() {
     return (
@@ -22,6 +22,7 @@ export default function BestSeller() {
                 {products.map((product) => (
                     <div
                         key={product.id}
+                        className="flex flex-col items-center text-center font-bold"
                     >
                         {/* Product Image */}
                         <div className="relative">
@@ -35,19 +36,27 @@ export default function BestSeller() {
                         </div>
 
                         {/* Product Details */}
-                        <div className="mt-4 font-bold text-center">
-                            <h4 className="text-[16px] text-[#252B42]">
+                        <div className="mt-4">
+                            {/* Title and Category */}
+                            <h4 className="text-[16px] text-[#252B42] font-bold">
                                 {product.title}
                             </h4>
-                            <p className="text-sm text-[#737373] mt-1">{product.category}</p>
-                            <div className="flex items-center mt-2">
-                                <p className="text-sm text-[#BDBDBD]">{product.price}</p>
-                                <p className="text-sm text-[#23856D] ml-2">
+                            <p className="text-sm text-[#737373] mt-1">
+                                {product.category}
+                            </p>
+
+                            {/* Price Section */}
+                            <div className="flex justify-center items-center mt-2">
+                                <p className="text-sm text-[#BDBDBD] mr-2">
                                     {product.originalPrice}
+                                </p>
+                                <p className="text-sm text-[#23856D] font-semibold">
+                                    {product.price}
                                 </p>
                             </div>
 
-                            <div className="flex items-center mt-2">
+                            {/* Colors Section */}
+                            <div className="flex justify-center items-center mt-2 space-x-2">
                                 {product.colors.map((color, index) => (
                                     <Image
                                         key={index}
@@ -55,7 +64,7 @@ export default function BestSeller() {
                                         alt={`Color ${index + 1}`}
                                         width={16} // Set width for icons
                                         height={16} // Set height for icons
-                                        className="mr-2"
+                                        className="rounded-full"
                                     />
                                 ))}
                             </div>

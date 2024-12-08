@@ -31,8 +31,8 @@ export default function FeaturedPost() {
                         </div>
 
                         {/* Product Details */}
-                        <div className="p-6 font-extralight">
-                            <div className="text-[12px] text-[#737373] flex gap-4">
+                        <div className="p-6 ">
+                            <div className="text-[12px] text-[#737373] flex gap-4 font-light">
                                 <p className="text-[#8EC2F2]">Google</p>
                                 <p>Trending</p>
                                 <p>New</p>
@@ -41,13 +41,13 @@ export default function FeaturedPost() {
                             <h1 className="mt-4 text-left text-[20px] text-[#252B42]">
                                 {product.title}
                             </h1>
-                            <p className="text-left text-sm text-[#737373] mt-2">{product.des}</p>
+                            <p className="text-left text-sm text-[#737373] mt-2 font-light">{product.des}</p>
                             <div className="flex items-center justify-between mt-4 text-[#737373] text-[12px]">
-                                <div className="flex gap-2 items-center">
+                                <div className="flex gap-2 items-center font-light">
                                     <Image src="/clock.svg" alt="clock icon" width={16} height={16} />
                                     <p>{product.date}</p>
                                 </div>
-                                <div className="flex gap-2 items-center">
+                                <div className="flex gap-2 items-center font-light">
                                     <Image src="/comment.svg" alt="comment icon" width={16} height={16} />
                                     <p>{product.comments}</p>
                                 </div>

@@ -99,3 +99,71 @@ export const featuredPosts = [
         comments: "10 comments"
     },
 ]
+
+
+export const bestProducts = [
+    {
+      id: 1,
+      image: "/bp1.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+    {
+      id: 2,
+      image: "/bp2.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+    {
+      id: 3,
+      image: "/bp3.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+    {
+      id: 4,
+      image: "/bp4.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+    {
+      id: 5,
+      image: "/bp5.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+    {
+      id: 6,
+      image: "/bp6.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+    {
+      id: 7,
+      image: "/bp1.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+    {
+      id: 8,
+      image: "/bp2.jpg",
+      title: "Graphic Design",
+      department: "English Department",
+      oldPrice: "$16.48",
+      newPrice: "$6.48",
+    },
+  ];

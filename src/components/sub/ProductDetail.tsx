@@ -49,10 +49,10 @@ export default function ProductDetail() {
 
                     {/* Color Options */}
                     <div className="flex gap-2 mt-6">
-                            <Image src="/blue.svg" alt="Next" width={23} height={23} />
-                            <Image src="/green.svg" alt="Next" width={23} height={23} />
-                            <Image src="/yellow.svg" alt="Next" width={23} height={23} />
-                            <Image src="/navyblue.svg" alt="Next" width={23} height={23} />
+                        <Image src="/blue.svg" alt="Next" width={23} height={23} />
+                        <Image src="/green.svg" alt="Next" width={23} height={23} />
+                        <Image src="/yellow.svg" alt="Next" width={23} height={23} />
+                        <Image src="/navyblue.svg" alt="Next" width={23} height={23} />
                     </div>
 
                     {/* Select Options and Actions */}
@@ -70,6 +70,13 @@ export default function ProductDetail() {
                             </button>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="lg:block hidden">
+                <div className="flex gap-4 items-center justify-start mt-4">
+                    <Image src="/p1.png" alt="product" width={100} height={100} />
+                    <Image src="/p2.png" alt="product" width={100} height={100} />
                 </div>
             </div>
         </section>

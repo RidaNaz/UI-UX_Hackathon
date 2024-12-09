@@ -49,7 +49,7 @@ export default function Header() {
                 <h1 className="text-[26px] text-[#252B42]">Bandage</h1>
                 <div className="md:block hidden">
                     <nav className="flex gap-6 text-[#737373]">
-                        <Link href="/">Home</Link>
+                        <Link href="/shop">Home</Link>
                         <select className="outline-none border-none lg:block hidden">
                             <option>Shop</option>
                             <option>Others</option>

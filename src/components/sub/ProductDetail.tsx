@@ -6,6 +6,12 @@ export default function ProductDetail() {
 
     return (
         <section className="py-12 px-6 sm:px-8 lg:px-32 md:px-16 bg-[#FAFAFA]">
+
+            <div className="flex gap-4 font-bold tracking-md text-[14px] mb-4 -mt-4 ml-4">
+                <p className="text-[#252B42]">Home</p>
+                <p className="text-[#BDBDBD]"> / </p>
+                <p className="text-[#BDBDBD]">Shop</p>
+            </div>
             <div className="container mx-auto flex flex-col md:flex-row gap-12 items-center">
                 {/* Product Image Section */}
                 <div className="w-full md:w-1/2 flex justify-center">

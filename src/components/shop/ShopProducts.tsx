@@ -8,11 +8,11 @@ export default function ShopProducts() {
 
             <div className="px-6 sm:px-8 lg:px-32 md:px-16 pt-5 pb-4">
                 {/* Product Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center mt-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center">
                     {products2.map((product) => (
                         <div
                             key={product.id}
-                            className="flex flex-col items-center text-center font-bold mt-5"
+                            className="flex flex-col items-center text-center font-bold mt-10"
                         >
                             {/* Product Image */}
                             <div className="relative">

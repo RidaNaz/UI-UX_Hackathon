@@ -1,5 +1,4 @@
 import { categories } from "@/helper";
-import ShopProducts from "./ShopProducts";
 import Image from "next/image";
 
 export default function Shop1() {

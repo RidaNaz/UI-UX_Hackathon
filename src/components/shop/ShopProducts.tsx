@@ -19,9 +19,9 @@ export default function ShopProducts() {
                                 <Image
                                     src={product.image}
                                     alt={product.title}
-                                    width={500}
-                                    height={500}
-                                    className="w-full h-auto"
+                                    width={1000}
+                                    height={1000}
+                                    className="object-cover"
                                 />
                             </div>
 

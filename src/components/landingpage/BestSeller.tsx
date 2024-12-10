@@ -5,14 +5,14 @@ export default function BestSeller() {
     return (
         <section className="pt-20 px-6 sm:px-8 md:px-16 lg:px-32 bg-white">
             {/* Section Title */}
-            <div className="text-center pb-20">
-                <h2 className="text-xl md:text-2xl tracking-md font-thin text-[#737373]">
+            <div className="text-center pb-20 font-bold">
+                <h2 className="text-xl md:text-2xl tracking-md text-[#737373]">
                     Featured Products
                 </h2>
-                <h3 className="text-2xl md:text-3xl tracking-tiny font-bold text-[#252B42] mt-2">
+                <h3 className="text-2xl md:text-3xl tracking-tiny text-[#252B42] mt-2">
                     BESTSELLER PRODUCTS
                 </h3>
-                <p className="text-[#737373] tracking-md mt-2 font-light text-[14px]">
+                <p className="text-[#737373] tracking-md mt-2  text-[14px]">
                     Problems trying to resolve the conflict between
                 </p>
             </div>
@@ -29,9 +29,9 @@ export default function BestSeller() {
                             <Image
                                 src={product.image}
                                 alt={product.title}
-                                width={500}
-                                height={500}
-                                className="w-full h-auto"
+                                width={1000}
+                                height={1000}
+                                className="object-cover"
                             />
                         </div>
 

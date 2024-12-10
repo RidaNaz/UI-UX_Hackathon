@@ -49,7 +49,7 @@ export default function Header() {
                 <h1 className="text-[26px] text-[#252B42]">Bandage</h1>
                 <div className="md:block hidden">
                     <nav className="flex gap-6 text-[#737373]">
-                        <Link href="/shop">Home</Link>
+                        <Link href="/">Home</Link>
                         <select className="outline-none border-none lg:block hidden">
                             <option>Shop</option>
                             <option>Others</option>
@@ -57,7 +57,7 @@ export default function Header() {
                         <Link href="/about">About</Link>
                         <Link href="/blog">Blog</Link>
                         <Link href="/contact">Contact</Link>
-                        <Link href="/pages">Pages</Link>
+                        <Link href="/product">Pages</Link>
                     </nav>
                 </div>
                 <div className="md:block hidden">
@@ -104,7 +104,7 @@ export default function Header() {
                     <Link href="/about" onClick={() => setIsMobileNavOpen(false)}>About</Link>
                     <Link href="/blog" onClick={() => setIsMobileNavOpen(false)}>Blog</Link>
                     <Link href="/contact" onClick={() => setIsMobileNavOpen(false)}>Contact</Link>
-                    <Link href="/pages" onClick={() => setIsMobileNavOpen(false)}>Pages</Link>
+                    <Link href="/product" onClick={() => setIsMobileNavOpen(false)}>Pages</Link>
 
                     <div className="text-center flex flex-col gap-4 items-center">
                         <div className="flex gap-2 items-center text-[#23A6F0] font-bold">

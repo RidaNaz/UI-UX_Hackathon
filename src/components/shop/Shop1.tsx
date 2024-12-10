@@ -18,14 +18,14 @@ export default function Shop1() {
           </div>
         </div>
         {/* Categories Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6 w-full">
           {categories.map((category) => (
             <div key={category.id} className="relative group">
               <Image
                 src={category.image}
                 alt={category.name}
-                width={200}
-                height={200}
+                width={1000}
+                height={1000}
                 className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 hover:bg-black hover:bg-opacity-20 flex flex-col justify-center items-center transition-opacity">
@@ -92,7 +92,6 @@ export default function Shop1() {
           </div>
         </div>
       </div>
-      <ShopProducts />
     </div>
 
   );

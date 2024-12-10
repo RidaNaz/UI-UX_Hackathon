@@ -287,3 +287,24 @@ export const products2 = [
     colors: ["blue", "green", "yellow", "navyblue"],
   },
 ]
+
+export const team = [
+  {
+    id: 1,
+    name: "username",
+    profession: "profession",
+    image: "/team1.jpg"
+  },
+  {
+    id: 2,
+    name: "username",
+    profession: "profession",
+    image: "/team2.jpg"
+  },
+  {
+    id: 3,
+    name: "username",
+    profession: "profession",
+    image: "/team3.jpg"
+  },
+]

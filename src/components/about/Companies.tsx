@@ -5,7 +5,7 @@ export default function Companies() {
     return (
         <div className="mt-32 bg-[#FAFAFA] ">
             <div className="font-bold grid justify-items-center text-center py-10">
-                <h2 className="text-[40px] tracking-md text-[#252B42] pt-12">Big Companies Are Here</h2>
+                <h2 className="text-[40px] tracking-md text-[#252B42] pt-12 px-6">Big Companies Are Here</h2>
                 <p className="text[14px] text-[#737373] tracking-md font-normal w-[80%] md:w-1/2 mt-5 px-4">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <div className="pb-10">

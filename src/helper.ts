@@ -293,6 +293,27 @@ export const team = [
     id: 1,
     name: "username",
     profession: "profession",
+    image: "/team6.jpg"
+  },
+  {
+    id: 2,
+    name: "username",
+    profession: "profession",
+    image: "/team7.jpg"
+  },
+  {
+    id: 3,
+    name: "username",
+    profession: "profession",
+    image: "/team4.jpg"
+  },
+]
+
+export const team2 = [
+  {
+    id: 1,
+    name: "username",
+    profession: "profession",
     image: "/team1.jpg"
   },
   {
@@ -306,5 +327,41 @@ export const team = [
     name: "username",
     profession: "profession",
     image: "/team3.jpg"
+  },
+  {
+    id: 4,
+    name: "username",
+    profession: "profession",
+    image: "/team4.jpg"
+  },
+  {
+    id: 5,
+    name: "username",
+    profession: "profession",
+    image: "/team5.jpg"
+  },
+  {
+    id: 6,
+    name: "username",
+    profession: "profession",
+    image: "/team6.jpg"
+  },
+  {
+    id: 7,
+    name: "username",
+    profession: "profession",
+    image: "/team7.jpg"
+  },
+  {
+    id: 8,
+    name: "username",
+    profession: "profession",
+    image: "/team8.jpg"
+  },
+  {
+    id: 9,
+    name: "username",
+    profession: "profession",
+    image: "/team9.jpg"
   },
 ]

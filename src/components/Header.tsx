@@ -50,9 +50,17 @@ export default function Header() {
                 <div className="md:block hidden">
                     <nav className="flex gap-6 text-[#737373]">
                         <Link href="/">Home</Link>
-                        <select className="outline-none border-none lg:block hidden">
-                            <option>Shop</option>
-                            <option>Others</option>
+                        <select
+                            className="outline-none border-none lg:block hidden"
+                            onChange={(e) => {
+                                const selectedValue = e.target.value;
+                                if (selectedValue) {
+                                    window.location.href = selectedValue; // Navigate to the URL
+                                }
+                            }}
+                        >
+                            <option value="/shop">Shop</option>
+                            <option value="/team">Team</option>
                         </select>
                         <Link href="/about">About</Link>
                         <Link href="/blog">Blog</Link>

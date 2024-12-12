@@ -9,7 +9,7 @@ export default function ProductDetail() {
 
             <div className="flex gap-4 font-bold tracking-md text-[14px] mb-4 -mt-4 ml-4">
                 <p className="text-[#252B42]">Home</p>
-                <p className="text-[#BDBDBD]"> / </p>
+                <Image src="/arrowgray.svg" alt="arrow" width={7} height={7} />
                 <p className="text-[#BDBDBD]">Shop</p>
             </div>
             <div className="container mx-auto flex flex-col md:flex-row gap-12 items-center">

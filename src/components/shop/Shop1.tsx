@@ -12,7 +12,7 @@ export default function Shop1() {
 
           <div className="flex items-center gap-4 font-bold">
             <span className="text-[#252B42] ">Home</span>
-            <span className="text-[#BDBDBD]">/</span>
+            <Image src="/arrowgray.svg" alt="arrow" width={7} height={7} />
             <span className="text-[#BDBDBD]">Shop</span>
           </div>
         </div>

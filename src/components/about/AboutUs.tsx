@@ -83,7 +83,7 @@ export default function AboutUs() {
                     alt="Video"
                     width={1000}
                     height={1000}
-                    className="absolute top-0 left-0 rounded-xl md:rounded-3xl mix-blend-overlay z-10"
+                    className="absolute top-0 left-0 rounded-xl md:rounded-3xl mix-blend-overlay z-10 h-full w-auto"
                 />
                 <div className="bg-[#23A6F0] absolute p-8 rounded-full -mt-12 -ml-10 top-2/4 left-2/4">
                     <Image
